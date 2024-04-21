@@ -2,6 +2,9 @@
 ## Name and surname: Kateryna Zdebska
 ## Login: xzdebs00
 
+### Task
+The script of type filter reads from the standard input the source code in IPPcode24, checks the lexical and syntactic validity of the code and prints the XML representation of the program to the standard output.
+
 ### Implementation:
 The script represents IPPcode24 source code as tokenized lines. Each line is broken down into tokens, which are then processed and analyzed to perform various tasks such as stripping the from unnecessary characters, syntax validation and statistics counting. Collecting statistics was  The script utilizes data structures such as lists and dictionaries to store and manipulate tokenized code, statistics, and other relevant information.
 
